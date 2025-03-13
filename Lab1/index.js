@@ -17,6 +17,7 @@ const server = http.createServer(function (req, res) {
         returnHtmlFile(200, 'contact.html', res);
     } else {
         returnHtmlFile(404, 'notFound.html', res);
+        
     }
 });
 
